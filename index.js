@@ -160,7 +160,7 @@ function unhide(cookie, movieId) {
   return del(cookie, `users/me/ratings/${movieId}`);
 }
 
-export default {
+module.exports = {
   login,
   get,
   getMe,
